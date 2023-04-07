@@ -4,6 +4,7 @@ import MemoExample from './MemoExample';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Accordion } from 'react-bootstrap';
+import ReducerExample from './ReducerExample';
 
 
 const AllComponents = () => {
@@ -23,6 +24,12 @@ const AllComponents = () => {
           <Accordion.Header>useMemo</Accordion.Header>
           <Accordion.Body>
             <MemoExample />
+          </Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="2">
+          <Accordion.Header>useReducer</Accordion.Header>
+          <Accordion.Body>
+            <ReducerExample />
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>
